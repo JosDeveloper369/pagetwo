@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            text-align: center;
+            width: 100%;
+            align-items: center;
+            border: 1px solid;
+            background-color: #B1D4E5;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            padding: 20px;
+            
+        }
+        div label{
+            font-size: 30px;
+        }
+        div input{
+            font-size: 20px;
+            padding: 10px 30px;
+            width: 300px;
+            text-align: center;
+        }
+        div h1{
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            padding: 30px 20px;
+        }
+    </style>
+</head>
+<body style="background-color: #48C9B0;">
+    <div>
+        <h1>Seccion pago </h1>
+    </div>
+    <header>
+        
+        <form>
+            <h1>Datos de tarjeta para pagos</h1><br>
+            <div>
+                <label for ="Nombre">Ingrese su nombre de tarjeta</label><br>
+                <input type="text" id ="nombre" name="nombre" placeholder="Ingrese aqui su nombre" required><br>
+                
+                <label for ="Numero">Numero de tarjeta</label><br>
+                <input type="text" id ="numero" name="numero" placeholder="Ingrese aqui su numero de tarjeta" required><br>
+
+                <label for ="FechaDeVencimiento">Fecha de vencimiento de la tarjeta</label><br>
+                <input type="date" id ="FechaDeVencimiento" name="FechaDeVencimiento" placeholder="Ingrese la fecha de vencimiento" required><br>
+
+                <label for ="CodigosVerificacion">CVV</label><br>
+                <input type="number" id ="CodigosVerificacion" name="CodigosVerificacion"  placeholder="Ingrese aqui el codigo"  required><br>
+
+                
+                    
+                
+<br>
+                <input type="submit">
+            </div>
+            
+            
+        </form>
+    </header>
+
+    
+</body>
+</html>
